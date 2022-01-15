@@ -3,18 +3,20 @@ import subprocess
 
 from generate_map import *
 
-LENGTH_LIMIT = 2 * 60 + 20
+LENGTH_LIMIT = 1 * 60 + 40
 
 END_CAR_LENGTH_EACH = 3
 
 
-dates = sorted(set(load_statistics()["Day"]))
+dates = sorted(set(load_statistics()))
 
 FRAMERATE = len(dates) / (LENGTH_LIMIT - 2 * END_CAR_LENGTH_EACH)
 
 subprocess.check_call("mkdir -p outputs", shell=True)
 for date in tqdm.tqdm(dates):
-    generate_map(date)
+    #     generate_map(date)
+    continue
+
 os.system(f"cp outputs/{date}.png outputs/slide_1.png")
 os.system(
     'inkscape --export-type="png" slide.svg --export-filename=outputs/slide_2.png'
@@ -31,7 +33,7 @@ subprocess.check_call(
 )
 subprocess.check_call(
     [
-        "zsh",
+        "bash",
         "-c",
         "(echo file 'outputs/main.mp4' ; echo file 'outputs/end_credits.mp4')"
         + " | ffmpeg -protocol_whitelist file,pipe -f concat -safe 0 -i pipe:"
@@ -39,6 +41,6 @@ subprocess.check_call(
     ],
 )
 subprocess.check_call(
-    f"ffmpeg -i outputs/without_music.mp4 -i Evil\ Incoming.mp3 -map 0:v -map 1:a -c:v copy -shortest outputs/final.mp4",
+    f"ffmpeg -i outputs/without_music.mp4 -i SSB.ogg -map 0:v -map 1:a -c:v copy outputs/final.mp4",
     shell=True,
 )

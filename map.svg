@@ -5,7 +5,7 @@
    version="1.1"
    id="svg436"
    sodipodi:docname="map.svg"
-   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   inkscape:version="1.1.1 (50ffc5b540, 2022-01-11)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,14 +22,14 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.48305942"
-     inkscape:cx="812.52944"
-     inkscape:cy="512.35933"
-     inkscape:window-width="1848"
-     inkscape:window-height="1016"
-     inkscape:window-x="72"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
+     inkscape:zoom="0.68314918"
+     inkscape:cx="1430.8734"
+     inkscape:cy="462.56368"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      inkscape:current-layer="g22618"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -71,8 +71,8 @@ Place this code in the empty space below. */
     <rect
        x="53.146927"
        y="23.866728"
-       width="914.19873"
-       height="201.92113"
+       width="422.84807"
+       height="187.3971"
        id="rect4798-7-6" />
     <rect
        x="53.146927"
@@ -83,8 +83,8 @@ Place this code in the empty space below. */
     <rect
        x="53.146927"
        y="23.866728"
-       width="914.19873"
-       height="201.92113"
+       width="1076.1611"
+       height="95.764185"
        id="rect4798-75" />
   </defs>
   <metadata
@@ -925,71 +925,69 @@ Place this code in the empty space below. */
        xml:space="preserve"
        id="text4796"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;line-height:125%;font-family:'TeX Gyre Termes';-inkscape-font-specification:'TeX Gyre Termes';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4798);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(1042.8445,312.53408)"><tspan
+       transform="matrix(0.90569659,0,0,0.90569659,1037.6696,328.86938)"><tspan
          x="53.146484"
-         y="80.600551"
-         id="tspan13038"><tspan
-           style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13036">$DATE</tspan></tspan></text>
+         y="83.734723"
+         id="tspan12846"><tspan
+           style="font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           id="tspan12844">$020-03-05</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text4796-3"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;line-height:125%;font-family:'TeX Gyre Termes';-inkscape-font-specification:'TeX Gyre Termes';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4798-75);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(271.24532,6.8181209)"><tspan
+       transform="translate(145.50985,6.8181209)"><tspan
          x="53.146484"
-         y="80.600551"
-         id="tspan13042"><tspan
-           style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13040">Covid vaccination rate by state</tspan></tspan></text>
+         y="82.851594"
+         id="tspan12850"><tspan
+           style="font-family:Cant;-inkscape-font-specification:Cant"
+           id="tspan12848">Covid vaccination rate by state</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text4796-8"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;line-height:125%;font-family:'TeX Gyre Termes';-inkscape-font-specification:'TeX Gyre Termes';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4798-7);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(355.8116,429.65956)"
+       transform="translate(392.71384,426.66549)"
        x="345.39972"
        y="0"><tspan
-         x="772.87945"
-         y="80.600551"
-         id="tspan13046"><tspan
-           style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond';text-align:end;text-anchor:end"
-           id="tspan13044">$06-$32</tspan></tspan></text>
+         x="694.47937"
+         y="83.734723"
+         id="tspan12854"><tspan
+           style="font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:end;text-anchor:end"
+           id="tspan12852">$06-$32</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text4796-8-8"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:125%;font-family:'TeX Gyre Termes';-inkscape-font-specification:'TeX Gyre Termes';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4798-7-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(982.03807,525.89738)"><tspan
+       transform="matrix(0.89200477,0,0,0.89200477,994.08961,524.56505)"><tspan
          x="53.146484"
-         y="46.56055"
-         id="tspan13050"><tspan
-           style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13048">Democratic voteshare is calculated
+         y="47.814219"
+         id="tspan12858"><tspan
+           style="font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           id="tspan12856">Democratic voteshare is calculated
 </tspan></tspan><tspan
          x="53.146484"
-         y="81.040595"
-         id="tspan13054"><tspan
-           style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13052">as the fully vaccinated rate multiplied
-</tspan></tspan><tspan
+         y="83.547934"
+         id="tspan12862"><tspan
+           style="font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           id="tspan12860">as the fully vaccinated rate </tspan></tspan><tspan
          x="53.146484"
-         y="115.52064"
-         id="tspan13058"><tspan
-           style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13056">by $MULT to match 2020 actual two
-</tspan></tspan><tspan
+         y="119.28165"
+         id="tspan12866"><tspan
+           style="font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           id="tspan12864">multiplied by $MULT to match </tspan></tspan><tspan
          x="53.146484"
-         y="150.00069"
-         id="tspan13062"><tspan
-           style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13060">party voteshare</tspan></tspan></text>
+         y="155.01536"
+         id="tspan12870"><tspan
+           style="font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           id="tspan12868">2020 actual two party voteshare</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text4796-8-8-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:125%;font-family:'TeX Gyre Termes';-inkscape-font-specification:'TeX Gyre Termes';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4798-7-6-3);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(1258.6749,743.42987)"><tspan
          x="53.146484"
-         y="46.56055"
-         id="tspan13066"><tspan
-           style="font-style:italic;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13064">@notkavi</tspan></tspan></text>
+         y="47.814219"
+         id="tspan12874"><tspan
+           style="font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           id="tspan12872">@notkavi</tspan></tspan></text>
   </g>
 </svg>

@@ -16,22 +16,30 @@ def load_general_data():
 
 
 def load_statistics():
-    df = pd.read_csv("us-covid-number-fully-vaccinated.csv")[
-        ["Entity", "Day", "people_fully_vaccinated"]
-    ]
+    df = pd.read_csv("us-covid-number-fully-vaccinated.csv").rename(
+        columns={"location": "Entity", "date": "Day"}
+    )[["Entity", "Day", "people_fully_vaccinated"]]
     df["Entity"] = df["Entity"].apply(
         lambda x: x if x != "New York State" else "New York"
     )
+    df = df[df["people_fully_vaccinated"] > 0]
+    df = df.pivot(
+        index="Entity", columns=["Day"], values="people_fully_vaccinated"
+    ).copy()
+    prev = None
+    for date in sorted(df):
+        if prev is None:
+            df[date] = df[date].fillna(0)
+        else:
+            df[date] = df[date].fillna(prev)
+        prev = df[date]
     return df
 
 
 def get_data(date):
     df = load_statistics()
-    for_day = (
-        df[df.Day == date]
-        .set_index("Entity")
-        .join(load_general_data(), how="right")
-        .fillna(0)
+    for_day = pd.DataFrame({"people_fully_vaccinated": df[date]}).join(
+        load_general_data(), how="right"
     )
     for_day.people_fully_vaccinated /= for_day.Population
     multiplier = (
@@ -76,7 +84,7 @@ def generate_map(date):
     svg = svg.replace(
         "empty space below. */", "empty space below. */\n" + "\n".join(styles)
     )
-    svg = svg.replace("$DATE", date)
+    svg = svg.replace("$020-03-05", date)
     svg = svg.replace("$06", f"{dem_ec(for_day):.0f}")
     svg = svg.replace("$32", f"{538 - dem_ec(for_day):.0f}")
     svg = svg.replace("$MULT", f"{multiplier:.2f}")

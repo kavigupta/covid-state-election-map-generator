@@ -5,7 +5,7 @@
    version="1.1"
    id="svg436"
    sodipodi:docname="slide.svg"
-   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   inkscape:version="1.1.1 (50ffc5b540, 2022-01-11)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,11 +25,11 @@
      showgrid="false"
      inkscape:zoom="0.41788298"
      inkscape:cx="915.32802"
-     inkscape:cy="446.29719"
-     inkscape:window-width="1848"
-     inkscape:window-height="1016"
-     inkscape:window-x="72"
-     inkscape:window-y="27"
+     inkscape:cy="447.4937"
+     inkscape:window-width="3840"
+     inkscape:window-height="2123"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="g22618"
      fit-margin-top="0"
@@ -84,8 +84,8 @@ Place this code in the empty space below. */
     <rect
        x="53.146927"
        y="23.866728"
-       width="1154.8328"
-       height="221.68234"
+       width="1304.7584"
+       height="209.56063"
        id="rect4798-75" />
     <rect
        x="53.146927"
@@ -119,42 +119,43 @@ Place this code in the empty space below. */
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9699px;line-height:125%;font-family:'TeX Gyre Termes';-inkscape-font-specification:'TeX Gyre Termes';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4798-75);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(28.558328,586.54894)"><tspan
          x="53.146484"
-         y="57.881571"
-         id="tspan13602"><tspan
+         y="59.706097"
+         id="tspan3120"><tspan
            style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13600">Map animation by Kavi Gupta (@notkavi)
+           id="tspan3118">Map animation by Kavi Gupta (@notkavi)
 </tspan></tspan><tspan
          x="53.146484"
-         y="109.56265"
-         id="tspan13606"><tspan
+         y="113.2117"
+         id="tspan3124"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00011253357 0.00010299683 -0.00010108948"
            style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13604">Background music from Kevin MacLeod via freepd.com. Public Domain
+           id="tspan3122">Background music from Wikipedia [File:Star_Spangled_Banner_instrumental.ogg]
 </tspan></tspan><tspan
          x="53.146484"
-         y="161.24372"
-         id="tspan13610"><tspan
+         y="166.7173"
+         id="tspan3128"><tspan
            style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13608">Data from https://ourworldindata.org/us-states-vaccinations</tspan></tspan></text>
+           id="tspan3126">Data from https://ourworldindata.org/us-states-vaccinations</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text4796-3-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;line-height:125%;font-family:'TeX Gyre Termes';-inkscape-font-specification:'TeX Gyre Termes';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4798-75-3);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(271.24532,5.1357869)"><tspan
          x="53.146484"
-         y="80.600551"
-         id="tspan13614"><tspan
+         y="83.64372"
+         id="tspan3132"><tspan
            style="font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13612">Covid vaccination rate by state</tspan></tspan></text>
+           id="tspan3130">Covid vaccination rate by state</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text4796-8-8-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:125%;font-family:'TeX Gyre Termes';-inkscape-font-specification:'TeX Gyre Termes';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4798-7-6-3);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(1258.6749,743.42987)"><tspan
          x="53.146484"
-         y="46.56055"
-         id="tspan13618"><tspan
+         y="47.777818"
+         id="tspan3136"><tspan
            style="font-style:italic;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond'"
-           id="tspan13616">@notkavi</tspan></tspan></text>
+           id="tspan3134">@notkavi</tspan></tspan></text>
     <image
        width="293.02899"
        height="293.02899"
